@@ -1,5 +1,7 @@
 <!-- A set to steps and commands to get started with GIT -->
+
 # gitTest
+
 Git Test Project/
 ├── simulate.py
 ├── inputs/
@@ -10,7 +12,7 @@ Git Test Project/
 │   └── expected_results.txt
 └── README.md
 
-# FPGA Verification Project
+## FPGA Verification Project
 
 This project simulates a basic FPGA verification workflow:
 1. Generates test vectors.
