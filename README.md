@@ -42,6 +42,8 @@ a. To generate a new key
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 
+keep pressing enter for file name and passphrase.
+
 ## Git Commands
 
 1. Clone directory
@@ -90,8 +92,19 @@ git stash
 git checkout -b <branch_name>
 ```
 
+7. Undo Changes
 
+a. Unstage changes
 
+```
+git reset <file>
+```
+
+b. Reset branch to a specific commit
+
+```
+git reset --hard <commit_hash>
+```
 
 ## Requirements
 - Python 3.x installed.
