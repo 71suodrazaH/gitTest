@@ -1,4 +1,4 @@
-outputs/redults.txt
+outputs/results.txt
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
