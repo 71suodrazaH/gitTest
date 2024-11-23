@@ -1,7 +1,7 @@
-<!-- A set to steps and commands to get started with GIT -->
 
 # gitTest
-
+A set to steps and commands to get started with GIT
+'''
 Git Test Project/
 ├── simulate.py
 ├── inputs/
@@ -11,7 +11,7 @@ Git Test Project/
 ├── reference/
 │   └── expected_results.txt
 └── README.md
-
+'''
 ## FPGA Verification Project
 
 This project simulates a basic FPGA verification workflow:
