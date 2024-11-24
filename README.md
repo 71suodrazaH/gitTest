@@ -116,7 +116,15 @@ git checkout Master
 git merge NewFeature
 ```
 
+8. Delete Branch
 
+You can delete the branch with the following command (if the branch is already pushed to the remote branch (github / bitbucket / etc.))
+
+```
+git branch -d <name_of_branch_to_be_deleted>
+```
+
+Use -D instead if you want to force the branch to be deleted, even if it hasn't been pushed or merged yet.
 
 ## Requirements
 - Python 3.x installed.
