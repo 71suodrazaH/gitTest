@@ -73,7 +73,7 @@ git branch <new_branch_name>
 
 5. Switch to a different branch
 
-Before switching to a new branch ensure that there are no changes you made to you local branch
+Before switching to a new branch ensure that there are no changes you made to you local branch. However, before you do that, note that if your working directory or staging area has uncommitted changes that conflict with the branch you’re checking out, Git won’t let you switch branches. It’s best to have a clean working state when you switch branches.
 ```
 git status
 
@@ -105,6 +105,18 @@ b. Reset branch to a specific commit
 ```
 git reset --hard <commit_hash>
 ```
+
+8. Merge Branch
+
+Let's assume that you would like to merge your "NewFeature" branch into the "Master" branch.
+Here's how you can do it.
+
+```
+git checkout Master
+git merge NewFeature
+```
+
+
 
 ## Requirements
 - Python 3.x installed.
