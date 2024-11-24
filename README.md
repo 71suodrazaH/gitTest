@@ -119,6 +119,7 @@ git merge NewFeature
 8. Delete Branch
 
 You can delete the branch with the following command (if the branch is already pushed to the remote branch (github / bitbucket / etc.))
+It might be a good idea to switch to a different branch before deleting.
 
 ```
 git branch -d <name_of_branch_to_be_deleted>
