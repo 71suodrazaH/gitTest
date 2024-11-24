@@ -1,6 +1,6 @@
 
 # gitTest
-A set to steps and commands to get started with GIT
+A set of steps and commands to get started with GIT
 ```
 Git Test Project/
 ├── simulate.py
@@ -12,14 +12,12 @@ Git Test Project/
 │   └── expected_results.txt
 └── README.md
 ```
-## FPGA Verification Project
+## FPGA Verification Project (Dummy project)
 
 This project simulates a basic FPGA verification workflow:
 1. Generates test vectors.
 2. Simulates processing.
 3. Compares output with expected results.
-
-## Cloning 
 
 ## Usage
 
@@ -110,6 +108,7 @@ git reset --hard <commit_hash>
 
 Let's assume that you would like to merge your "NewFeature" branch into the "Master" branch.
 Here's how you can do it.
+Note: Pay close attention to the order of the commands and branch names. Reversing the order would merge Master branch into NewFeature branch instead.
 
 ```
 git checkout Master
